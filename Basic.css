@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: auto;
+   
+    clear: both;
+    display: table;
+}
+.logo{
+    width: 30%;
+    height: 60px;
+   
+    float: left;
+    text-align: center;
+}
+nav{
+    width: 70%;
+    height: 60px;
+  padding: 5px;
+  text-align: end;
+  float: left;
+
+}
+nav ul li{
+    display: inline-block;
+    color: green;
+    padding: 5px 30px;
+    text-align: center;
+}
+.mail{
+    background-color: green;
+
+}
+div ul li{
+    display: inline-block;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    font-weight: 500;
+}
+nav ul li a{
+    color: black;
+}
+.social{
+   text-align: right;
+   
+}
+.Figure{
+    width: 10%;
+    height: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+}
+.Content{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    clear: both;
+    display: table;
+}
+.bg{
+    width: 100%;
+    height: 70vh;
+    background-image: url("DESK1-min.jpg");
+    background-size:cover;
+
+}
+.Info{
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+    float: left;
+   box-sizing: border-box;
+   
+}
+.Register{
+    width: 40%;
+    height: 100%;
+    padding: 60px;
+    float: left;
+    background-color: beige;
+    box-sizing: border-box;
+    
+ 
+}
+
+.Courses{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+   clear: both;
+   display: table;
+  background-color:gainsboro
+}
+
+.course{
+  width: 25%;
+    float: left; 
+    padding: 10px;
+    text-align: center;
+}
+.imgcls{
+    width: 100%;
+}
+figure img:hover{
+   border-radius: 10%;  
+   animation-duration: 2s;
+}
+
+.Register h2{
+    background-color: green;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+.Trainings{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    clear: both;
+    display: table;
+    background-color:gainsboro
+}
+.classroom{
+    width: 25%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 10%;
+    
+}
+.training_img{
+    width: 80%;
+    padding-top: 5px;
+}
+@keyframes ZoomIn {
+    from{
+        font-size: 0px;
+    }
+    to{
+        font-size: 40px;
+    }
+    
+}
+/* .Trainings .classroom img:hover{
+    border-radius: 20%;
+    padding: 10%,10% 10%;
+} */
+
+
+.Choose{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    clear: both;
+    display: table;
+
+}
+.span{
+    color: maroon
+}
+.Details{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.stats{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+   box-sizing: border-box;
+   padding: 10px;
+   background-image: url("pexels-photo-3285203.jpeg");
+   opacity: 0.9;
+  
+}
+.Specificstats{
+    width: 25%;
+    float: left;
+    color: black;
+
+}
+.Specificstats h2{
+    color: yellow;
+}
+.Table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse:collapse ;
+    padding: 50px;
+    
+    
+}
+.Mainrow{
+    background-color: navy;
+    color: white;
+    padding: 30px;
+    border: 1px solid;
+   
+}
+.Tablerow{
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid;
+}
+.tableh2{
+    text-align: center;
+}
+.tablespan{
+    color: maroon;
+}
+.td{
+    border: 1px solid;
+}
+.tda{
+    color: brown;
+}
